@@ -1,0 +1,7 @@
+{
+	"name": "@rosehaven/tooling",
+	"private": true,
+	"keywords": [],
+	"author": "Oliver Rose <hello@olivermrose.com>",
+	"packageManager": "pnpm@10.30.2"
+}
