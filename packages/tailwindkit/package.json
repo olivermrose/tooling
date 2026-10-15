@@ -1,6 +1,6 @@
 {
 	"name": "@rosehaven/tailwindkit",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "",
 	"main": "./index.css",
 	"keywords": [
@@ -11,5 +11,5 @@
 	],
 	"author": "Oliver Rose <hello@olivermrose.com>",
 	"license": "MIT",
-	"packageManager": "pnpm@10.30.2"
+	"packageManager": "pnpm@12.11.2"
 }
