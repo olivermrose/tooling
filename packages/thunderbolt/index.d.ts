@@ -4,7 +4,7 @@ declare module "@rosehaven/thunderbolt" {
 	export type Breakpoints = Record<string, number>;
 
 	function headingPseudo(): Visitor;
-	function mediaQueryBreakpoints(breakpoints: Breakpoints): Visitor;
+	function mediaQueryBreakpoints(breakpoints?: Breakpoints): Visitor;
 
 	export const breakpointsTailwind: Breakpoints;
 	export const breakpointsBootstrap5: Breakpoints;

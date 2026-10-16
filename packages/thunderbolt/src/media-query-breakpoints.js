@@ -31,7 +31,7 @@ export const breakpointsBootstrap5 = {
 };
 
 /**
- * @param {Breakpoints} [breakpoints]
+ * @param {Breakpoints} [breakpoints=breakpointsTailwind]
  * @return {Visitor<any>}
  */
 export function mediaQueryBreakpoints(breakpoints = breakpointsTailwind) {
