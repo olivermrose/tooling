@@ -1,1 +1,1 @@
-export * from "./heading-pseudo.js";
+export * as headingPseudo from "./heading-pseudo.js";
