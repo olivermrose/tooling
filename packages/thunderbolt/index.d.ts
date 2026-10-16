@@ -1,7 +1,13 @@
 declare module "@rosehaven/thunderbolt" {
 	import type { Visitor } from "lightningcss";
 
-	function headingPseudo(): Visitor;
+	export type Breakpoints = Record<string, number>;
 
-	export { headingPseudo };
+	function headingPseudo(): Visitor;
+	function mediaQueryBreakpoints(breakpoints: Breakpoints): Visitor;
+
+	export const breakpointsTailwind: Breakpoints;
+	export const breakpointsBootstrap5: Breakpoints;
+
+	export { headingPseudo, mediaQueryBreakpoints };
 }
